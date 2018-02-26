@@ -1,5 +1,5 @@
-执行src/runtime/目录下平台相关的汇编引导程序
-runtime·args():格式化CLI参数
-runtime·osinit():初始化CPU core
-runtime·schedinit(): 初始化goroutine上限,栈内存,malloc,CLI参数,环境变量,debug参数,gc,GOMAXPROCS
-runtime·mstart():启动gc monitor,enable gc,import所有依赖并执行相关init函数,执行main.main()
+Run the platform-specific assembly that is located under $GOROOT/src/runtime/
+runtime·args(): Parse terminal arguments
+runtime·osinit(): Initialize CPU cores
+runtime·schedinit(): Initialize goroutine scheduler, stack memory, terminal arguments, environment variables, debug parameter, gc, GOMAXPROCS, ...
+runtime·mstart(): Start gc monitor, enable gc, import dependencies and run init() functions, finally run main.main()

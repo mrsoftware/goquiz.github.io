@@ -1,1 +1,1 @@
-在以下ABCD四行空缺处补上代码，使程序遍历并打印所有结果，并打印可能的报错
+Fill in the blanks in line ABCD, to print out all the rows and potential errors.

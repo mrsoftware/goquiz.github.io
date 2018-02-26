@@ -1,0 +1,1 @@
+Go package management tools save dependencies in ./vendor/ which is introduced from 1.6 in order to include project-specific dependencies without polluting the global $GOPATH

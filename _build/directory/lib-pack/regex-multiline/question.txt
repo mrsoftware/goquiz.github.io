@@ -1,4 +1,5 @@
-修改A行中的正则表达式，使s替换所有以0开头的连续(可跨行)的0为一个0，即打印的结果为
+Fix the regex pattern in line A, to replace all consecutive 0s to one 0 when 0 is the beginning of the line.
+The expected output is like:
 100
 0
 1

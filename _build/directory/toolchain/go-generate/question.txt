@@ -1,1 +1,1 @@
-简述go generate的机制
+Briefly describe how go generate works.

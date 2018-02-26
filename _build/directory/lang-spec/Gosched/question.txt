@@ -1,1 +1,1 @@
-在A行增加一行代码，使打印的小写字母是顺序的
+Add code in line A to assure that the lowercase letters and capital letters are printed consecutively.

@@ -1,1 +1,1 @@
-简述go为object分配内存的过程
+Briefly introduce the strategies that how go runtime allocates memory.

@@ -22,11 +22,11 @@ func main() {
 	if err != nil {
 		log.Panicf("plugin.Open: %s\n", err)
 	}
-	f, err := p.Lookup("UpperCase")
+	f, err := ___ // A
 	if err != nil {
 		log.Panicf("Lookup UpperCase: %s\n", err)
 	}
-	UpperCase, ok := ___ // A
+	UpperCase, ok := ___ // B
 	if !ok {
 		log.Panicf("UpperCase assertion: %s\n", err)
 	}

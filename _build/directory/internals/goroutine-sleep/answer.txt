@@ -1,2 +1,2 @@
-C.sleep直接调用sleep syscall,会导致操作系统生成闲置线程
-time.Sleep对goroutine进行了优化,并未使用sleep syscall
+C.sleep() invokes syscall sleep, which causes idle threads
+time.Sleep() is optimized for goroutine so syscall sleep is not involved.

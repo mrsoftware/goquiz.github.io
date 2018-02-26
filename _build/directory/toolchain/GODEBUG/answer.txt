@@ -1,1 +1,1 @@
-在stderr输出gc的debug信息以及每1000ms打印go scheduler的状态
+Print the debug info of gc and go scheduler's states every 1000ms

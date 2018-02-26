@@ -1,1 +1,2 @@
-runtime.newobject()函数的作用是什么。是否make和new一定会调用runtime.newobject().
+What does runtime.newobject() do?
+Does make() and `new` operation always invoke runtime.newobject()?

@@ -1,4 +1,4 @@
-补全A行的tpl的模版内容，使起能生成最多三层Tree的内容，即最终输出结果为
+Complete the code in line A, to generate content with text template for at most 3 tiers. The expected output is as follows:
 A
  B
   C

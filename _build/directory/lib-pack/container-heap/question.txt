@@ -1,1 +1,1 @@
-以下程序的打印结果是什么
+What will be printed when the code below is executed?

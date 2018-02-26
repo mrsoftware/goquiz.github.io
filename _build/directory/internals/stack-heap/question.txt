@@ -1,1 +1,1 @@
-go什么情况下为对象分配栈内存，什么情况下分配堆内存
+When go runtime allocates memory from heap, and when from stack?

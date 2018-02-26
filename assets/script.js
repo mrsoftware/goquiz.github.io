@@ -3,7 +3,7 @@ $(function () {
         this.rows = this.value.split("\n").length
     })
     $(".gq-anwser-btn").click(function () {
-        $(this).html($(this).html() == "隐藏答案" ? "显示答案" : "隐藏答案").next(".gq-anwser").toggle()
+        $(this).html($(this).html() == "Hide" ? "Answer" : "Hide").next(".gq-anwser").toggle()
     })
     $(".gq-run-btn").click(function () {
         var $this = $(this), $code, $output

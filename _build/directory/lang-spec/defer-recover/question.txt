@@ -1,1 +1,2 @@
-以下代码会打印什么结果,以下代码的运行后exit code是0还是1
+What will be printed when the code below is executed?
+What will be the exit code after the code below is executed?

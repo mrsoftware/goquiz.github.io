@@ -1,4 +1,4 @@
-遍历一个文本文件的每一行，以下函数分别有什么区别，哪个最合适
+Compare and contrast the functions below for the use case of traversing each line of a text file.
 
 fmt.Fscanf()
 bufio.Reader.ReadLine()

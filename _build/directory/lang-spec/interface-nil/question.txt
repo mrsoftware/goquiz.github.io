@@ -1,1 +1,2 @@
-以下代码会打印什么结果,并解释为什么 println(InitType() == nil) 有语法错误
+What will be printed when the code below is executed?
+And explain why `println(InitType() == nil)` cannot be compiled?

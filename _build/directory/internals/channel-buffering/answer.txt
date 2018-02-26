@@ -1,0 +1,2 @@
+For unbuffered channel, the sender will block on the channel until the receiver receives the data from the channel, whilst the receiver will also block on the channel until sender sends data into the channel. 
+Compared with unbuffered counterpart, the sender of buffered channel will block when there is no empty slot of the channel, while the receiver will block on the channel when it is empty.

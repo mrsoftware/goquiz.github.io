@@ -1,1 +1,2 @@
-以下程序会打印什么结果，当A行修改为GOMAXPROCS=2又会有什么变化
+What will be printed when the code below is executed?
+Will it be different when line A is changed to `GOMAXPROCS=2` ?

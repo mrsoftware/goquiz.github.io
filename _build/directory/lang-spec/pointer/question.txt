@@ -1,1 +1,1 @@
-在以下AB两行补全代码，使运行结果打印"foo"
+Fill in the blanks in line A and B, to assure the printed output is "foo"

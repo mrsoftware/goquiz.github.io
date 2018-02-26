@@ -1,130 +1,128 @@
 ---
 sections:
   - key: lang-spec
-    name: 语言规范
+    name: Language Specification
     quizzes:
       - key: subslice-grow
-        name: subslice引用
+        name: Subslice
       - key: short-declairation
-        name: 短声明
+        name: Short Declairation
       - key: interface-nil
-        name: interface是否等于nil的判断
+        name: Nil Interfaces
       - key: map-ok-idiom
-        name: map存取数据
+        name: Map Ok-Idiom
       - key: pointer
-        name: 指针基本操作
+        name: Pointers
       - key: empty-interface
-        name: interface{}万能指针
+        name: interface{} Pointers
       - key: for-pointer
-        name: 临时变量的指针
+        name: Temporary Pointer
       - key: label-break
-        name: break外层循环
+        name: Break Outer Loop
       - key: global-varible
-        name: 全局变量
+        name: Global Varibles
       - key: defer-closefile
-        name: defer栈
+        name: Defer Stack
       - key: defer-panic
-        name: panic栈
+        name: Panic Stack
       - key: defer-recover
-        name: recover
+        name: recover()
       - key: goroutine-closure
-        name: goroutine闭包参数
+        name: Goroutine Closures
       - key: type-shadowing
-        name: receiver函数的"仿重载"
+        name: Type Shadowing
       - key: string-bytes
-        name: string转换为bytes
+        name: String to Bytes
       - key: mutex-map
-        name: map并发操作的临界区
+        name: Map Mutex
       - key: DeepEqual
-        name: 深度比较
+        name: DeepEqual
       - key: Gosched
-        name: goroutine让先
+        name: Gosched
       - key: map-addressing
-        name: map的值的内部字段可修改性
+        name: Map Immutability
       - key: sort-Slice
-        name: Struct的Slice的排序
+        name: Slice Sorting
   - key: lib-pack
-    name: 标准库和包
+    name: Standard library and Packages
     quizzes:
       - key: init-import
-        name: init函数
+        name: init()
       - key: json-unmarshal
-        name: json反序列化
-      - key: sync-map
-        name: map并发存取
+        name: json unmarshalling
       - key: utf8-len
-        name: utf8字符串长度
+        name: utf8 length
       - key: regex-multiline
-        name: 正则表达式的高级模式
+        name: regex multiline mode
       - key: readline
-        name: 文本文件的行遍历
+        name: readline
       - key: container-heap
-        name: 堆容器
+        name: Heap
       - key: context-withtimeout
-        name: context超时
+        name: context.WithTimeout
       - key: flag
-        name: 命令行参数解析
+        name: flag
       - key: text-template
-        name: 文本模版
+        name: text-template
       - key: html-template
-        name: html模版
+        name: html-template
       - key: http-server
-        name: http服务
+        name: http server
       - key: sql-query
-        name: sql查询
+        name: sql query
   - key: toolchain
-    name: 工具链
+    name: Toolchain
     quizzes:
       - key: gcflags
-        name: gcflags参数
+        name: gcflags
       - key: benchmark-N
-        name: benchmark次数变量
-      - key: govendor-gopath
-        name: govendor路径覆盖
+        name: benchmark
+      - key: vendor-gopath
+        name: package management
       - key: GOMAXPROCS
         name: GOMAXPROCS
       - key: shared-object
-        name: 共享库
+        name: shared object
       - key: GODEBUG
-        name: GODEBUG参数
+        name: GODEBUG
       - key: GOROOT-GOPATH
-        name: $GOROOT和$GOPATH
+        name: $GOROOT vs $GOPATH
       - key: go-generate
         name: go generate
       - key: http-pprof
         name: http server的pprof
       - key: path-wildcard
-        name: ./...路径通配符
+        name: ./...
   - key: internals
-    name: 内部原理
+    name: Internals
     quizzes:
       - key: unsafe-bytes-string
-        name: string内部结构
+        name: String Internals
       - key: unsafe-slice-array
-        name: slice内部结构
+        name: Slice Internals
       - key: defer-overhead
-        name: defer的性能成本
+        name: defer overhead
       - key: map-malloc
-        name: map的malloc阈值容量
+        name: Map malloc Threshold
       - key: runtime-newobject
-        name: 内存分配
+        name: runtime.newobject()
       - key: SSA
         name: SSA
       - key: AST
         name: AST
       - key: bootstrap
-        name: Go引导过程
-      - key: channel-sync-async
-        name: channel同步异步的区别
+        name: Go Bootstrapping
+      - key: channel-buffering
+        name: Unbuffered and Buffered Channels
       - key: finalizer
-        name: 析构函数
+        name: Destructor
       - key: gc
-        name: gc工作机制
+        name: Garbage Collection
       - key: goroutine-sleep
-        name: goroutine休眠
+        name: Goroutine Sleep
       - key: object-memory
-        name: 内存分配过程
+        name: Memory Allocation
       - key: stack-heap
-        name: stack和heap内存分配判定
+        name: Stack vs Heap
       - key: stop-goroutine
-        name: goroutine暂停或者终止
+        name: Goroutine Pause or Halt

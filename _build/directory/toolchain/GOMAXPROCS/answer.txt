@@ -1,2 +1,2 @@
-GOMAXPROCS=1时会先打印a-z后打印A-Z
-GOMAXPROCS=2时打印a-z中会参杂打印A-Z
+When GOMAXPROCS=1, the printed output will be a-zA-Z.
+When GOMAXPROCS=2, a-z will be mixed with A-Z.

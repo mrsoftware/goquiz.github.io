@@ -1,0 +1,1 @@
+How doesn go package management tools(i.e. godep, govendor) segregate dependencies from $GOPATH?

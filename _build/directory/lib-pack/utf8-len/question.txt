@@ -1,1 +1,1 @@
-修改下面代码以显示正确的utf8字符长度
+Fix the mistake below to assure the length of utf8 string can be printed correctly.

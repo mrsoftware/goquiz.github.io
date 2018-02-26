@@ -1,1 +1,2 @@
-在以下A行补全代码,将变量b从[]byte类型转化成string类型并且不产生内存拷贝，并使运行结果打印"143"
+Fill in the blank in line A, to convert b from []byte to string without causing memory copy.
+The expected output is "143"

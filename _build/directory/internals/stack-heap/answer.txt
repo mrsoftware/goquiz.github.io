@@ -1,3 +1,4 @@
-生命周期只存在在函数stack frame的变量，分配栈内存。跨栈传递对象的引用，对象则escape到堆内存。
-大对象(>32k)直接在堆上分配内存。
-可以inline的函数里，原本escape到堆内存的对象也可能会被编译器优化成栈内存对象。
+For small objects whose life cycle is only within the stack frame, stack memory is allocated.
+For small objects that will be passed across stack frames, heap memory.
+For big objects(>32KB), heap memory.
+For small objects that could escape to heap but actually inlined, stack memory.

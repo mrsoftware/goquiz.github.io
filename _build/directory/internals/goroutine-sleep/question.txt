@@ -1,1 +1,1 @@
-解释C.sleep和time.Sleep的区别
+What is the difference between C.sleep() and time.Sleep()?

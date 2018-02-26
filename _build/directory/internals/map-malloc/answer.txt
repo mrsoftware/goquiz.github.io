@@ -1,1 +1,2 @@
-默认为128，通过修改runtime.hashmap的maxKeySize和maxValueSize可以调整
+The default limit is 128.
+It can be modified by changing the value of maxKeySize and maxValueSize in runtime.hashmap
