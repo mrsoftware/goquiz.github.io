@@ -1,4 +1,4 @@
-# Awesome Go Interview Questions and Answers
+# Go Interview Questions and Answers
 
 Available at [https://goquiz.github.io/](https://goquiz.github.io/)
 
