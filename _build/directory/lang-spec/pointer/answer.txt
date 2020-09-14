@@ -9,6 +9,6 @@ func f() *S {
 }
 
 func main() {
-    p := *f()  //B
+    p := f()  //B
     print(p.m) //print "foo"
 }
